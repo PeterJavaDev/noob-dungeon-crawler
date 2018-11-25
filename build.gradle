@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'pl.noobgamesinjava'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':noob-3d-engine')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
